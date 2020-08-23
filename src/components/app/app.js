@@ -4,6 +4,9 @@ import AppHeader from '../app-header/';
 import SearchPanel from '../search-panel/';
 import PostStatusFilter from '../post-status-filter/';
 import PostList from '../post-list/';
+import PostAddFrom from '../post-add-form/';
+
+
 
 const App = () =>{
     return (
@@ -14,6 +17,7 @@ const App = () =>{
                 <PostStatusFilter />
             </div>
             <PostList />
+            <PostAddFrom />
        </div>
         
     )
