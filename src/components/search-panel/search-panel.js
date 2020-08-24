@@ -8,7 +8,6 @@ const SearchPanel = () => {
         className="form-control search-input"
         type="text"
         placeholder="Поиск по записям"/>
-        
     )
 }
 
